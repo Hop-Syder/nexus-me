@@ -1,0 +1,56 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    color: white;
+    padding: 1em;
+}
+
+header .header-left nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .header-left nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header .header-left nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+h2, h3 {
+    color: #3b5998;
+}
+
+a {
+    color: #3b5998;
+}

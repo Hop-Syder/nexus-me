@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue sur ma page Personnelle</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <script>
+        function viewCV() {
+            window.open('/cv/mycv.pdf', '_blank');
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -39,7 +44,8 @@
         <section id="professionnelle">
             <h2>Section Professionnelle</h2>
             <h3>CV</h3>
-            <a href="/cv/mycv.pdf" download="mycv.pdf">Télécharger mon CV</a>
+            <!-- Button to View CV -->
+            <button onclick="viewCV()">Visualiser mon CV</button>
             <h3>Diplômes</h3>
             <a href="/diplomes/diplome1.pdf" target="_blank">Certificat en Intelligence Artificielle</a>
             <a href="/diplomes/diplome2.pdf" target="_blank">Certificat en Fondement de Gestion de Projet</a>
